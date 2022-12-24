@@ -1,0 +1,13 @@
+train: ../gpl/train/images
+val: ../gpl/valid/images
+test: ../gpl/test/images
+
+nc: 1
+names: ['mango']
+
+roboflow:
+  workspace: project
+  project: gplabs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/gplabs/dataset/1
